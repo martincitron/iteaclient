@@ -19,7 +19,7 @@ request.send()*/
 async function getColorAsync(el) 
 {
   //let response = await fetch(`http://acetestapi-mcitron.oc.lab.trask.cz/hw/v1/color`);
-  let response = await fetch(`http://acetestapilb-mcitron.oc.lab.trask.cz/hw/v1/color`);
+  let response = await fetch(`https://ace1-7800-testproject2.apps.ca-central-1.starter.openshift-online.com/hw/v1/color`);
   let data = await response.json();
   document.getElementById(el).style.backgroundColor=data.color;
   return data;
