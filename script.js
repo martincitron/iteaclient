@@ -16,6 +16,7 @@ request.onload = function() {
 
 request.send()*/
 
+
 async function getColorAsync(el) 
 {
   //let response = await fetch(`http://acetestapi-mcitron.oc.lab.trask.cz/hw/v1/color`);
