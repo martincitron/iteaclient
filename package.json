@@ -2,7 +2,7 @@
   "name": "node",
   "version": "0.0.1",
   "description": "Node.js sample app for OpenShift 3",
-  "main": "server.js",
+  "main": "script.js",
   "dependencies": {},
   "engine": {
     "node": "*",
